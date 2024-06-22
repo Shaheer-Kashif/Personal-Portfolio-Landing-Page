@@ -71,7 +71,10 @@ main div #pink {
 }
 
 main div img {
-    width:300px;
+    position: absolute;
+    width:500px;
+    top:70px;
+    right:150px;
     border-radius: 50%;
 }
 
