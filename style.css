@@ -60,6 +60,11 @@ header #button3 {
 main div.container {
     padding:100px;
 }
+
+main .container #main-text,#img {
+    display: inline-block;
+}
+
 main div h2 {
     margin: 0px;
     font-size:380%;
@@ -78,8 +83,9 @@ main div img {
     border-radius: 50%;
 }
 
-main .container #main-text,#img {
-    display: inline-block;
-
+main .container #main-para {
+    font-size: 20px;
+    padding-top: 10px;
+    width: 550px;
 }
 
