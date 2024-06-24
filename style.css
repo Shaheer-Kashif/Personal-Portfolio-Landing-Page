@@ -77,10 +77,9 @@ main div #pink {
 
 main div img {
     position: absolute;
-    width:500px;
+    width:700px;
     top:70px;
-    right:150px;
-    border-radius: 50%;
+    right:50px;
 }
 
 main .container #main-para {
