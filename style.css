@@ -57,13 +57,11 @@ header #button3 {
     color: black;
 }
 
-main div.container {
+main .container {
+    display: flex;
     padding:100px;
 }
 
-main .container #main-text,#img {
-    display: inline-block;
-}
 
 main div h2 {
     margin: 0px;
@@ -75,16 +73,43 @@ main div #pink {
     color:#E5446D;
 }
 
-main div img {
-    position: absolute;
-    width:700px;
-    top:70px;
-    right:50px;
+main .container #img {
+    width:500px;
+    height:500px;
+    background-image: url('SKDesign Zoomed.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 175px;
 }
 
-main .container #main-para {
+#main-para {
     font-size: 20px;
     padding-top: 10px;
     width: 550px;
 }
 
+.experience .card {
+    background-color:rgb(255, 243, 229);
+    width: 33%;
+    padding:10px;
+    border-radius: 10%;
+    
+}
+
+.card .top-card-row {
+    display: flex;
+    height:50px;
+    justify-content: space-between;
+}
+
+.card .bottom-card-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card #channel-img {
+    width: 200px;
+    height: 200px;
+    background-image: url('https://yt3.googleusercontent.com/tSXA7v4nUjA-7tY-DBo3Yq6J44eiVtRbKq6R3VPaNA2hmPYgn3lUU3UmQ33n3vXwkMt0sGZvLg=s160-c-k-c0x00ffffff-no-rj');
+    background-size: contain;
+}
