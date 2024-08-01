@@ -59,9 +59,10 @@ header #button3 {
 
 main .container {
     display: flex;
-    padding:100px;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top: 100px;
 }
-
 
 main div h2 {
     margin: 0px;
@@ -88,28 +89,60 @@ main .container #img {
     width: 550px;
 }
 
+.experience {
+
+    padding-left:100px;
+    padding-right:100px;
+    padding-top: 50px;
+}
+
+
+.experience #experience-heading {
+    font-size:30px;
+    color: #502F4C;
+}
 .experience .card {
-    background-color:rgb(255, 243, 229);
+    background-color:black;
     width: 33%;
-    padding:10px;
-    border-radius: 10%;
+    padding:15px;
+    border-radius: 20px;
+    color: white;
+    
     
 }
 
 .card .top-card-row {
     display: flex;
-    height:50px;
+    height:40px;
     justify-content: space-between;
+    align-items: center;
+}
+
+.top-card-row .card-main-name {
+    font-size: 30px;
+    margin: 0;
+
 }
 
 .card .bottom-card-row {
     display: flex;
-    justify-content: space-between;
+    height: 75px;
+    flex-direction: column;
 }
 
+.bottom-card-row p {
+    margin-top: 15px;
+}
+.bottom-card-row h4 {
+    margin-top: 0;
+}
 .card #channel-img {
-    width: 200px;
-    height: 200px;
+
+    position: relative;
+    left:10px;
+    width: 70px;
+    height: 70px;
     background-image: url('https://yt3.googleusercontent.com/tSXA7v4nUjA-7tY-DBo3Yq6J44eiVtRbKq6R3VPaNA2hmPYgn3lUU3UmQ33n3vXwkMt0sGZvLg=s160-c-k-c0x00ffffff-no-rj');
     background-size: contain;
+    border-radius: 50%;
 }
