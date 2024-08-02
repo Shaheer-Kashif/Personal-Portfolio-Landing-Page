@@ -101,14 +101,31 @@ main .container #img {
     font-size:30px;
     color: #502F4C;
 }
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
 .experience .card {
-    background-color:black;
-    width: 33%;
+    
+    width: 31%;
     padding:15px;
     border-radius: 20px;
-    color: white;
-    
-    
+    transition: all .25s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+#wincrave-card {
+    background-color:black;
+    color: white; 
+}
+
+#coding-card {
+    background-color:rgb(28,29,30);
+    color: white; 
 }
 
 .card .top-card-row {
@@ -136,13 +153,20 @@ main .container #img {
 .bottom-card-row h4 {
     margin-top: 0;
 }
-.card #channel-img {
+
+.card #card-wincrave-img {
+    background-image: url('https://yt3.googleusercontent.com/tSXA7v4nUjA-7tY-DBo3Yq6J44eiVtRbKq6R3VPaNA2hmPYgn3lUU3UmQ33n3vXwkMt0sGZvLg=s160-c-k-c0x00ffffff-no-rj');
+}
+
+.card #card-skcodes-img {
+    background-image: url('https://avatars.githubusercontent.com/u/153809729?v=4');
+}
+.card .card-img {
 
     position: relative;
-    left:10px;
-    width: 70px;
-    height: 70px;
-    background-image: url('https://yt3.googleusercontent.com/tSXA7v4nUjA-7tY-DBo3Yq6J44eiVtRbKq6R3VPaNA2hmPYgn3lUU3UmQ33n3vXwkMt0sGZvLg=s160-c-k-c0x00ffffff-no-rj');
+    left:8px;
+    width: 60px;
+    height: 60px;
     background-size: contain;
     border-radius: 50%;
 }
