@@ -128,6 +128,11 @@ main .container #img {
     color: white; 
 }
 
+#skdesign-card {
+    background-color: #4B01EC;
+    color: white;
+}
+
 .card .top-card-row {
     display: flex;
     height:40px;
@@ -160,6 +165,10 @@ main .container #img {
 
 .card #card-skcodes-img {
     background-image: url('https://avatars.githubusercontent.com/u/153809729?v=4');
+}
+
+.card #card-skdesign-img {
+    background-image: url('https://yt3.googleusercontent.com/M37gwjOXte3ZPjYiypqF0YRt4w8DWuN55p09qpVUhcJNf_W9ZbRl29O-Fd6cfpGr6khoBikJ8w=s160-c-k-c0x00ffffff-no-rj');
 }
 .card .card-img {
 
