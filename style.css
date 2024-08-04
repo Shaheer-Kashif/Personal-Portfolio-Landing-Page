@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+a {
+    color: white;
 }
 
 body {
@@ -97,9 +101,10 @@ main .container #img {
 }
 
 
-.experience #experience-heading {
-    font-size:30px;
+.experience #experience-heading, #education-heading {
+    font-size:36px;
     color: #502F4C;
+    text-align: center;
 }
 
 .cards {
@@ -115,7 +120,7 @@ main .container #img {
 }
 
 .card:hover {
-    transform: scale(1.01);
+    transform: scale(1.05);
 }
 
 #wincrave-card {
@@ -178,4 +183,11 @@ main .container #img {
     height: 60px;
     background-size: contain;
     border-radius: 50%;
+}
+
+.education-section {
+    padding-left:100px;
+    padding-right:100px;
+    padding-top: 50px;
+
 }
