@@ -189,5 +189,49 @@ main .container #img {
     padding-left:100px;
     padding-right:100px;
     padding-top: 50px;
+    width: 100%;
 
+}
+
+.education-carousel {
+    height: 200px;
+    width: 100%;
+    background-color: red;
+}
+
+.wrapper, .slider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.slider .image {
+    height: 30%;
+    width: 30%;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.slider .image-data {
+    /* translate: translate(-50%,-50%); */
+}
+
+.image-data .text {
+    text-align: center;
+    font-size:14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.image-data h2 {
+    font-size:20px;
+    font-weight: 600;
+    color: #ffffff;
 }
