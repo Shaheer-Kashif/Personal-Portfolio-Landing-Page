@@ -6,11 +6,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <!-- This is a comment, it's defined like this -->
     <header>
         <div class="container">
             <a href="https://x.com/ShaheerCodes" target = "_main">
@@ -100,25 +100,32 @@
         </div>
         <div class="education-section">
             <h3 id="education-heading">Education</h3>
-            <div class="education-carousel">
-                <div class="wrapper">
-                    <div class="slider">
+            <div class="education-lists swiper mySwiper">
+                <div class="education-content swiper-wrapper">
+                    <div class="slider swiper-slide">
                         <img src="icons/school.png" alt="Icon of School" class="image">
-                        <!-- <img src="icons/college.png" alt="Icon of College" class="image"> -->
                         <div class="image-data">
                             <h2>Al-Saqib Public School</h2>
-                            <span class="text">Studied from 1st Grade to Matric.</span>
+                            <span class="desc">Studied from 1st Grade to Matric.</span>
                         </div>
-
+                    </div>
+                    <div class="slider swiper-slide">
+                        <img src="icons/school.png" alt="Icon of School" class="image">
+                        <div class="image-data">
+                            <h2>Al-Saqib Public School</h2>
+                            <span class="desc">Studied from 1st Grade to Matric.</span>
+                        </div>
                     </div>
                 </div>
-
-            
-
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </main>
     <footer>
     </footer>
+    <script src = "js/swiper-bundle.min.js"></script>
+    <script src = "js/script.js"></script>
 </body>
 </html>
