@@ -192,6 +192,9 @@ main .container #img {
     width: 100%;
 }
 
+.education-content {
+    padding-bottom: 40px;
+}
 .education-lists .slider {
     display: flex;
     flex-direction: column;
@@ -211,18 +214,35 @@ main .container #img {
     margin-bottom: 10px;
 }
 
+.education-lists .image,#adamjee-logo {
+    margin:0;
+    padding: 0;
+    height: 120px;
+    width: 120px;
+
+}
 .slider .image-data {
     padding: 10px;
     text-align: center;
 }
 
 .image-data h2 {
+    margin-top: 10px;
+    margin-bottom:2px;
     font-size:30px;
     font-weight: 600; 
 }
 
+.image-data .degree-and-duration {
+    color:#454545;
+    font-size: 14px;
+}
+
 .image-data .desc {
-    font-size: 20px;
+    font-size: 18px;
+    font-style: italic;
     font-weight: 400;
-    margin-top: 10px;
+    margin-top: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
