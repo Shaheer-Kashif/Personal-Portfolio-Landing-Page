@@ -17,13 +17,22 @@ header {
     padding: 20px 30px 10px 30px;
 }
 
-.header-container {
-    position: relative;
-}
-.container {
+.header-container, .container {
     position: relative;
 }
 
+.experience-section, .education-section, .skills-section {
+    padding: 100px 100px 0 100px;
+    width: 100%;
+}
+
+#experience-heading, #education-heading, #socials-heading, #skills-heading {
+    font-size:40px;
+    font-weight: 900;
+    color: #E5446D;
+    text-align: center;
+    padding-bottom: 30px;
+}
 
 header div img {
     width: 40px;
@@ -101,28 +110,12 @@ main .container #img {
     width: 550px;
 }
 
-.experience {
-
-    padding-left:100px;
-    padding-right:100px;
-    padding-top: 120px;
-}
-
-
-.experience #experience-heading, #education-heading, #socials-heading {
-    font-size:40px;
-    font-weight: 900;
-    color: #E5446D;
-    text-align: center;
-    padding-bottom: 30px;
-}
-
 .cards {
     display: flex;
     justify-content: space-between;
 }
-.experience .card {
-    
+
+.experience-section .card {
     width: 31%;
     padding:15px;
     border-radius: 20px;
@@ -195,12 +188,6 @@ main .container #img {
     border-radius: 50%;
 }
 
-.education-section {
-    padding-left:100px;
-    padding-right:100px;
-    padding-top: 100px;
-    width: 100%;
-}
 
 .education-content {
     padding-bottom: 40px;
@@ -354,7 +341,6 @@ main .container #img {
   
 footer {
     margin-top:50px;
-    
     background-color: #502F4C;
     height:100px;
 }
