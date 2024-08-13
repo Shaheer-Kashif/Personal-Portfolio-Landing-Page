@@ -188,6 +188,27 @@ main .container #img {
     border-radius: 50%;
 }
 
+.skills-container {
+    display:flex;
+    justify-content: space-around;
+}
+
+.skill-section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tools {
+    display:flex;
+}
+.tool {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .education-content {
     padding-bottom: 40px;
