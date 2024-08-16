@@ -189,25 +189,42 @@ main .container #img {
 }
 
 .skills-container {
+    width: 100%;
     display:flex;
     justify-content: space-around;
 }
 
-.skill-section {
+.skill-inner-section {
+    width: 33%;
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.skill-inner-section .section-heading {
+    margin-bottom: 10px;
+    font-size:24px;
+}
+
 .tools {
+    width: 100%;
     display:flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .tool {
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+}
+
+.tool span {
+    color:#454545;
+    font-size:14px;
+    margin-top: 5px;
 }
 
 .education-content {
