@@ -203,7 +203,7 @@ main .container #img {
 }
 
 .skill-inner-section .section-heading {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size:24px;
 }
 
@@ -218,7 +218,11 @@ main .container #img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    transition: all 0.2s ease-in-out;
+}
+
+.tool:hover {
+    scale: 1.1;
 }
 
 .tool span {
