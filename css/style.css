@@ -382,9 +382,23 @@ main .container #img {
 }
   
 footer {
-    margin-top:50px;
+    margin-top:100px;
     background-color: #502F4C;
-    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer-text span {
+    font-weight: 500;
 }
 
 header {
