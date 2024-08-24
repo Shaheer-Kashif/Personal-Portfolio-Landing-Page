@@ -187,13 +187,15 @@ main .container #img {
 
 .cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .experience-section .card {
-    width: 31%;
+    width: 35%;
+    margin-bottom: 30px;
     padding:15px;
-    border-radius: 20px;
+    border-radius: 30px;
     transition: all .25s ease-in-out;
 }
 
@@ -216,6 +218,10 @@ main .container #img {
     color: white;
 }
 
+#fourbit-card {
+    background-color: #009FBF;
+    color: white;
+}
 .card .top-card-row {
     display: flex;
     height:40px;
@@ -226,7 +232,6 @@ main .container #img {
 .top-card-row .card-main-name {
     font-size: 30px;
     margin: 0;
-
 }
 
 .card .bottom-card-row {
@@ -253,6 +258,10 @@ main .container #img {
 .card #card-skdesign-img {
     background-image: url('https://yt3.googleusercontent.com/M37gwjOXte3ZPjYiypqF0YRt4w8DWuN55p09qpVUhcJNf_W9ZbRl29O-Fd6cfpGr6khoBikJ8w=s160-c-k-c0x00ffffff-no-rj');
 }
+
+.card #card-4bit-img {
+    background-image: url('https://scontent.fkhi22-1.fna.fbcdn.net/v/t39.30808-6/306028997_183504097473382_3312012654516979055_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=GokBwB395GAQ7kNvgGaR-bC&_nc_ht=scontent.fkhi22-1.fna&oh=00_AYAqYRtPfLuuM4QhNbucH4ehqZqLxy-Zdww_AonTTLb3sw&oe=66CF3D98');
+}
 .card .card-img {
 
     position: relative;
@@ -260,6 +269,7 @@ main .container #img {
     width: 60px;
     height: 60px;
     background-size: contain;
+    background-repeat: no-repeat;
     border-radius: 50%;
 }
 
